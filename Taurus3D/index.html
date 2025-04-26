@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Three.js Cube</title>
+    <style>
+        body { margin: 0; overflow: hidden; } /* Remove default margin and hide scrollbars */
+        canvas { display: block; } /* Make the canvas a block element */
+    </style>
+</head>
+<body>
+    <!-- We'll use an import map to easily reference the Three.js library -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.163.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.163.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <!-- Our JavaScript file -->
+    <script type="module" src="Taurus.js"></script>
+</body>
+</html>
